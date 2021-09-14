@@ -855,7 +855,7 @@ a:hover {
 		font-family: 'Oranienbaum', serif;
 		font-style: normal;
 		font-weight: 400;
-		font-size: 40px;
+		font-size: 60px;
 		line-height: 40px;
 		text-align: left;
 		letter-spacing: 0.02em;
@@ -946,7 +946,8 @@ a:hover {
 	}
 
 	.image {
-		height: 100vh;
+		height: 80vh;
+		padding-top: 20px;
 	}
 
 
