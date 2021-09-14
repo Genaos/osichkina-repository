@@ -514,7 +514,6 @@ a:hover {
 
 
 @media (max-width: 1024px) {
-
 	.reel {
 	  display: grid;
 	  grid-template-columns: repeat(6, 1fr);
@@ -852,7 +851,7 @@ a:hover {
 
 
 @media (max-width: 768px) {
-
+  
 	h2 {
 	  font-family: 'Oranienbaum', serif;
 		font-style: normal;
