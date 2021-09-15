@@ -91,7 +91,6 @@ a:hover {
 	font-weight: 700;
 }
 
-
 .menu {
   display: flex;
 	position: sticky;
@@ -904,8 +903,8 @@ a:hover {
 		font-family: 'PT Root UI', sans-serif;
 		font-style: normal;
 		font-weight: 400;
-		font-size: 18px;
-		line-height: 28px;
+		font-size: 16px;
+		line-height: 24px;
 	}
 
 
@@ -915,7 +914,6 @@ a:hover {
 		justify-content: left;
 		overflow-x: scroll;
 		-webkit-overflow-scrolling: touch;
-		overflow: hidden;
 		top: 0px;
 		background-color: #Ffffff;
 		padding-top: 16px;
@@ -931,11 +929,12 @@ a:hover {
 		font-weight: 400;
 		font-size: 18px;
 		line-height: 28px;
-		margin-right: 50px;
+		margin-right: 28px;
 	}
 	.menu-item: last-child {
   margin-right: 0;
   }
+
 
 	.main {
 	  display: block;
