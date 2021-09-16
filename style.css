@@ -91,6 +91,7 @@ a:hover {
 	font-weight: 700;
 }
 
+
 .menu {
   display: flex;
 	position: sticky;
@@ -912,8 +913,10 @@ a:hover {
 	  display: flex;
 		position: sticky;
 		justify-content: left;
-		overflow-x: scroll;
+		overflow-x: auto;
+		white-space: nowrap;
 		-webkit-overflow-scrolling: touch;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
 		top: 0px;
 		background-color: rgba(255, 255, 255, 0.5);
 		backdrop-filter: blur(20px);
@@ -922,18 +925,32 @@ a:hover {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+
+  .menu::-webkit-scrollbar {
+	 display: none; }
+
+
 	.menu-item {
 		list-style: none;
 		font-family: 'PT Root UI', sans-serif;
 		font-style: normal;
 		font-weight: 400;
-		font-size: 18px;
-		line-height: 28px;
-		margin-right: 28px;
-
+		font-size: 16px;
+		line-height: 24px;
+		margin-right: 48px;
 	}
 	.menu-item:last-child {
     margin-right: 0px;
+  }
+
+	@media only screen and (max-width: 400px) {
+  .menu-item { margin-right: 36px; }
+  }
+  @media only screen and (max-width: 370px) {
+  .menu-item { margin-right: 32px; }
+  }
+  @media only screen and (max-width: 350px) {
+  .menu-item { margin-right: 20px; }
   }
 
 
