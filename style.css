@@ -98,7 +98,8 @@ a:hover {
 	top: 0px;
 	Justify-content: space-between;
 	background-color: rgba(255, 255, 255, 0.5);
-	backdrop-filter: blur(20px);
+	backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
 	padding-top: 24px;
 	padding-bottom: 24px;
 	padding-left: 40px;
@@ -148,7 +149,7 @@ a:hover {
 
 #h2_1 {
 	grid-column: 2 / 8;
-	padding-top: 140px;
+	padding-top: 120px;
 	padding-bottom: 80px;
 }
 
@@ -180,7 +181,7 @@ a:hover {
 #h2_2 {
 	grid-column: 2 / 8;
 	grid-row: 1;
-	padding-top: 140px;
+	padding-top: 120px;
 	padding-bottom: 80px;
 }
 
@@ -231,7 +232,7 @@ a:hover {
 #h2_3 {
 	grid-column: 2 / 8;
 	grid-row: 1;
-	padding-top: 140px;
+	padding-top: 120px;
 	padding-bottom: 80px;
 }
 
@@ -283,7 +284,7 @@ a:hover {
 #h2_4 {
 	grid-column: 2 / 8;
 	grid-row: 1;
-	padding-top: 140px;
+	padding-top: 120px;
 	padding-bottom: 48px;
 }
 
@@ -482,7 +483,7 @@ a:hover {
 #h2_5 {
 	grid-column: 2 / 8;
 	grid-row: 1;
-	padding-top: 140px;
+	padding-top: 120px;
 	padding-bottom: 80px;
 }
 
@@ -527,7 +528,7 @@ a:hover {
 
 	#h2_1 {
 		grid-column: 1 / 7;
-		padding-top: 140px;
+		padding-top: 120px;
 		padding-bottom: 80px;
 	}
 
@@ -560,7 +561,7 @@ a:hover {
 	#h2_2 {
 		grid-column: 1 / 7;
 		grid-row: 1;
-		padding-top: 140px;
+		padding-top: 120px;
 		padding-bottom: 80px;
 	}
 
@@ -611,7 +612,7 @@ a:hover {
 	#h2_3 {
 		grid-column: 1 / 7;
 		grid-row: 1;
-		padding-top: 140px;
+		padding-top: 120px;
 		padding-bottom: 80px;
 	}
 
@@ -664,7 +665,7 @@ a:hover {
 	#h2_4 {
 		grid-column: 1 / 7;
 		grid-row: 1;
-		padding-top: 140px;
+		padding-top: 120px;
 		padding-bottom: 48px;
 	}
 
@@ -919,7 +920,8 @@ a:hover {
 		-ms-overflow-style: -ms-autohiding-scrollbar;
 		top: 0px;
 		background-color: rgba(255, 255, 255, 0.5);
-		backdrop-filter: blur(20px);
+		backdrop-filter: blur( 20px );
+	  -webkit-backdrop-filter: blur( 20px );
 		padding-top: 16px;
 		padding-bottom: 16px;
 		padding-left: 10px;
@@ -981,7 +983,7 @@ a:hover {
 
 	#h2_1 {
 		grid-column: 1 / 5;
-		padding-top: 80px;
+		padding-top: 60px;
 		padding-bottom: 60px;
 	}
 
@@ -1014,7 +1016,7 @@ a:hover {
 	#h2_2 {
 		grid-column: 1 / 5;
 		grid-row: 1;
-		padding-top: 80px;
+		padding-top: 60px;
 		padding-bottom: 60px;
 	}
 
@@ -1067,7 +1069,7 @@ a:hover {
 	#h2_3 {
 		grid-column: 1 / 5;
 		grid-row: 1;
-		padding-top: 80px;
+		padding-top: 60px;
 		padding-bottom: 60px;
 	}
 
@@ -1120,7 +1122,7 @@ a:hover {
 	#h2_4 {
 		grid-column: 1 / 5;
 		grid-row: 1;
-		padding-top: 80px;
+		padding-top: 60px;
 		padding-bottom: 50px;
 	}
 
@@ -1319,7 +1321,7 @@ a:hover {
 	#h2_5 {
 		grid-column: 1 / 5;
 		grid-row: 1;
-		padding-top: 80px;
+		padding-top: 60px;
 		padding-bottom: 60px;
 	}
 
