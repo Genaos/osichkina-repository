@@ -148,7 +148,7 @@ a:hover {
 	margin-right: 40px;
 }
 
-#h2_1 {
+#showreel {
 	grid-column: 2 / 8;
 	padding-top: 120px;
 	padding-bottom: 80px;
@@ -179,7 +179,7 @@ a:hover {
 	margin-right: 40px;
 }
 
-#h2_2 {
+#filmography {
 	grid-column: 2 / 8;
 	grid-row: 1;
 	padding-top: 120px;
@@ -230,7 +230,7 @@ a:hover {
 	margin-right: 40px;
 }
 
-#h2_3 {
+#aboutme {
 	grid-column: 2 / 8;
 	grid-row: 1;
 	padding-top: 120px;
@@ -282,7 +282,7 @@ a:hover {
 	margin-right: 40px;
 }
 
-#h2_4 {
+#photo {
 	grid-column: 2 / 8;
 	grid-row: 1;
 	padding-top: 120px;
@@ -481,7 +481,7 @@ a:hover {
 	margin-right: 40px;
 }
 
-#h2_5 {
+#contact {
 	grid-column: 2 / 8;
 	grid-row: 1;
 	padding-top: 120px;
@@ -525,6 +525,22 @@ a:hover {
 }
 
 
+@media (max-width: 1024px) and (orientation: portrait) {
+	.main {
+	  display: flex;
+		Justify-content: space-between;
+		margin-top: 32px;
+		margin-bottom: 32px;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	.image {
+		height: calc(50vh - 140px);
+		object-fit: cover;
+	}
+}
+
 
 @media (max-width: 1024px) {
 	.reel {
@@ -538,7 +554,7 @@ a:hover {
 		margin-right: 40px;
 	}
 
-	#h2_1 {
+	#showreel {
 		grid-column: 1 / 7;
 		padding-top: 120px;
 		padding-bottom: 80px;
@@ -570,7 +586,7 @@ a:hover {
 		margin-right: 40px;
 	}
 
-	#h2_2 {
+	#filmography {
 		grid-column: 1 / 7;
 		grid-row: 1;
 		padding-top: 120px;
@@ -621,7 +637,7 @@ a:hover {
 		margin-right: 40px;
 	}
 
-	#h2_3 {
+	#aboutme {
 		grid-column: 1 / 7;
 		grid-row: 1;
 		padding-top: 120px;
@@ -674,7 +690,7 @@ a:hover {
 		margin-right: 40px;
 	}
 
-	#h2_4 {
+	#photo {
 		grid-column: 1 / 7;
 		grid-row: 1;
 		padding-top: 120px;
@@ -872,21 +888,21 @@ a:hover {
 	 margin-right: 40px;
  }
 
- #h2_5 {
-	 grid-column: 1 / 6;
+ #contact {
+	 grid-column: 1 / 7;
 	 grid-row: 1;
 	 padding-top: 120px;
 	 padding-bottom: 80px;
  }
 
  .agent{
-	 grid-column: 1 / 6;
+	 grid-column: 1 / 7;
 	 grid-row: 2;
 	 padding-bottom: 24px;
  }
 
  .agentc{
-	 grid-column: 1 / 6;
+	 grid-column: 1 / 7;
 	 grid-row: 3;
 	 padding-bottom: 60px;
  }
@@ -922,8 +938,8 @@ a:hover {
 		font-family: 'Oranienbaum', serif;
 		font-style: normal;
 		font-weight: 400;
-		font-size: 40px;
-		line-height: 40px;
+		font-size: 44px;
+		line-height: 44px;
 		text-align: left;
 		letter-spacing: 0.02em;
 		text-transform: uppercase;
@@ -933,8 +949,8 @@ a:hover {
 	  font-family: 'Oranienbaum', serif;
 		font-style: normal;
 		font-weight: 400;
-		font-size: 40px;
-		line-height: 40px;
+		font-size: 44px;
+		line-height: 44px;
 		text-align: center;
 		letter-spacing: 0.02em;
 		text-transform: uppercase;
@@ -974,8 +990,146 @@ a:hover {
 		font-size: 18px;
 		line-height: 26px;
 	}
+}
+
+@media (max-width: 356px) {
+	h1 {
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	h2 {
+		font-size: 40px;
+		line-height: 40px;
+	}
+}
 
 
+@media (max-width: 767px) and (orientation: landscape) {
+	.menu {
+		padding-top: 16px;
+		padding-bottom: 16px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.menu-item {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.main {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.image {
+		height: calc(100vh - 96px);
+		object-fit: cover;
+	}
+
+	.reel {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#showreel {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.film {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#filmography {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.f1_1 {
+		padding-top: 20px;
+	}
+	.f1_2 {
+		padding: 20px 0 20px;
+	}
+	.f1_3 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.about {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#aboutme {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.bio {
+		padding-top: 20px;
+	}
+	.bio_1 {
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+	.teatr {
+		padding-top: 20px;
+	}
+	.teatr_1 {
+		padding-top: 20px;
+	}
+
+	.gallery {
+		grid-column-gap: 10px;
+		grid-row-gap: 10px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#photo {
+		padding-top: 60px;
+		padding-bottom: 50px;
+	}
+
+	.contacts {
+		margin-top: 20px;
+		margin-bottom: 40px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#contact {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.agent{
+		padding-bottom: 20px;
+	}
+	.agentc{
+		padding-bottom: 60px;
+	}
+
+	.kinopoisk{
+		padding-bottom: 20px;
+	}
+	.vk{
+		padding-bottom: 20px;
+	}
+	.fb{
+		padding-bottom: 20px;
+	}
+}
+
+
+
+@media (max-width: 767px) and (orientation: portrait) {
 	.menu {
 	  display: flex;
 		position: sticky;
@@ -1012,8 +1166,11 @@ a:hover {
   }
 
 	@media only screen and (max-width: 400px) {
-  .menu-item { margin-right: 36px; }
+  .menu-item { margin-right: 40px; }
   }
+	@media only screen and (max-width: 380px) {
+	.menu-item { margin-right: 36px; }
+	}
   @media only screen and (max-width: 370px) {
   .menu-item { margin-right: 32px; }
   }
@@ -1049,7 +1206,7 @@ a:hover {
 		margin-right: 10px;
 	}
 
-	#h2_1 {
+	#showreel {
 		grid-column: 1 / 5;
 		padding-top: 60px;
 		padding-bottom: 60px;
@@ -1081,7 +1238,7 @@ a:hover {
 		margin-right: 10px;
 	}
 
-	#h2_2 {
+	#filmography {
 		grid-column: 1 / 5;
 		grid-row: 1;
 		padding-top: 60px;
@@ -1135,7 +1292,7 @@ a:hover {
 		margin-right: 10px;
 	}
 
-	#h2_3 {
+	#aboutme {
 		grid-column: 1 / 5;
 		grid-row: 1;
 		padding-top: 60px;
@@ -1188,7 +1345,7 @@ a:hover {
 		margin-right: 10px;
 	}
 
-	#h2_4 {
+	#photo {
 		grid-column: 1 / 5;
 		grid-row: 1;
 		padding-top: 60px;
@@ -1387,7 +1544,7 @@ a:hover {
 		margin-right: 10px;
 	}
 
-	#h2_5 {
+	#contact {
 		grid-column: 1 / 5;
 		grid-row: 1;
 		padding-top: 60px;
