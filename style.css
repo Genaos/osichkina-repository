@@ -1,8 +1,8 @@
 @font-face {
 	font-family: PTRootUI;
 	src:
-		url("../osichkina-repository/fonts/PT-Root-UI_Regular.woff2") format('woff2'),
-		url("../osichkina-repository/fonts/PT-Root-UI_Regular.woff") format('woff');
+		url("../osichkina-repository/PT-Root-UI_Regular.woff2") format('woff2'),
+		url("../osichkina-repository/PT-Root-UI_Regular.woff") format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: fallback;
@@ -11,8 +11,8 @@
 @font-face {
 	font-family: PTRootUI;
 	src:
-		url("../osichkina-repository/fonts/PT-Root-UI_Bold.woff2") format('woff2'),
-		url("../osichkina-repository/fonts/PT-Root-UI_Bold.woff") format('woff');
+		url("../osichkina-repository/PT-Root-UI_Bold.woff2") format('woff2'),
+		url("../osichkina-repository/PT-Root-UI_Bold.woff") format('woff');
 	font-weight: bold;
 	font-style: normal;
 	font-display: fallback;
