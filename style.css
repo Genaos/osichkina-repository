@@ -1,26 +1,26 @@
 @font-face {
-	font-family: 'PTRootUI', sans-serif;
+	font-family: 'PTRootUI';
 	src:
-		url("../osichkina-repository/PT-Root-UI_Regular.woff2") format('woff2'),
-		url("../osichkina-repository/PT-Root-UI_Regular.woff") format('woff');
+		url("PT-Root-UI_Regular.woff2") format('woff2'),
+		url("PT-Root-UI_Regular.woff") format('woff');
 	font-weight: normal;
 	font-style: normal;
-	font-display: fallback;
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'PTRootUI', sans-serif;
+	font-family: 'PTRootUI';
 	src:
-		url("../osichkina-repository/PT-Root-UI_Bold.woff2") format('woff2'),
-		url("../osichkina-repository/PT-Root-UI_Bold.woff") format('woff');
+		url("PT-Root-UI_Bold.woff2") format('woff2'),
+		url("PT-Root-UI_Bold.woff") format('woff');
 	font-weight: bold;
 	font-style: normal;
-	font-display: fallback;
+	font-display: swap;
 }
 
 body {
 	background-color: #FFFFFF;
-	font-family: PTRootUI, sans-serif;
+	font-family: 'PTRootUI', sans-serif;
 }
 
 h1 {
@@ -941,8 +941,8 @@ a:hover {
 		font-family: 'Oranienbaum', serif;
 		font-style: normal;
 		font-weight: 400;
-		font-size: 60px;
-		line-height: 60px;
+		font-size: 44px;
+		line-height: 44px;
 		text-align: left;
 		letter-spacing: 0.02em;
 		text-transform: uppercase;
