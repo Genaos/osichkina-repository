@@ -1,23 +1,26 @@
 @font-face {
-	font-family: 'PTRootUI';
+	font-family: "PTRootUI";
 	src:
 		url("/fonts/PT-Root-UI_Regular.woff2") format("woff2"),
 		url("/fonts/PT-Root-UI_Regular.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
+	font-display: fallback;
 }
 
 @font-face {
-	font-family: 'PTRootUI';
+	font-family: "PTRootUI";
 	src:
 		url("/fonts/PT-Root-UI_Bold.woff2") format("woff2"),
 		url("/fonts/PT-Root-UI_Bold.woff") format("woff");
 	font-weight: bold;
 	font-style: normal;
+	font-display: fallback;
 }
 
 body {
 	background-color: #FFFFFF;
+	font-family: PTRootUI, sans-serif;
 }
 
 h1 {
@@ -938,8 +941,8 @@ a:hover {
 		font-family: 'Oranienbaum', serif;
 		font-style: normal;
 		font-weight: 400;
-		font-size: 44px;
-		line-height: 44px;
+		font-size: 60px;
+		line-height: 60px;
 		text-align: left;
 		letter-spacing: 0.02em;
 		text-transform: uppercase;
