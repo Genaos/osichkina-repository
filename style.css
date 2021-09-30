@@ -90,6 +90,10 @@ a:hover {
 	font-weight: 700;
 }
 
+a.active{
+  font-weight: 700;
+}
+
 
 .menu {
   display: flex;
@@ -99,6 +103,7 @@ a:hover {
 	background-color: rgba(255, 255, 255, 0.5);
 	backdrop-filter: blur( 20px );
   -webkit-backdrop-filter: blur( 20px );
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 	padding-top: 24px;
 	padding-bottom: 24px;
 	padding-left: 40px;
@@ -1180,7 +1185,7 @@ a:hover {
 
 	.main {
 	  display: block;
-		margin-top: 12px;
+		margin-top: 32px;
 		margin-bottom: 20px;
 		margin-left: 10px;
 		margin-right: 10px;
