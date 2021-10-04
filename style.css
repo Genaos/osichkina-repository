@@ -138,6 +138,21 @@ a.active{
 .image {
 	height: calc(100vh - 140px);
 	object-fit: cover;
+	padding-left: 32px;
+}
+
+.maincontent {
+	display: flex;
+	flex-direction: column;
+	Justify-content: space-between;
+}
+.name {
+	padding-right: 32px;
+	padding-bottom: 32px;
+}
+.cname {
+	padding-right: 32px;
+	max-width: 50vw;
 }
 
 
@@ -530,15 +545,6 @@ a.active{
 
 
 @media (max-width: 1024px) and (orientation: portrait) {
-	.main {
-	  display: flex;
-		Justify-content: space-between;
-		margin-top: 32px;
-		margin-bottom: 32px;
-		margin-left: 40px;
-		margin-right: 40px;
-	}
-
 	.image {
 		height: calc(50vh - 140px);
 		object-fit: cover;
@@ -1029,6 +1035,14 @@ a.active{
 		margin-right: 10px;
 	}
 
+	.name {
+		padding-right: 20px;
+		padding-bottom: 20px;
+	}
+	.cname {
+		padding-right: 20px;
+	}
+
 	.image {
 		height: calc(100vh - 96px);
 		object-fit: cover;
@@ -1184,11 +1198,21 @@ a.active{
 
 
 	.main {
-	  display: block;
+	  display: flex;
+		flex-direction: column;
 		margin-top: 20px;
 		margin-bottom: 20px;
 		margin-left: 10px;
 		margin-right: 10px;
+	}
+
+	.name {
+		padding-right: 0px;
+		padding-bottom: 20px;
+	}
+	.cname {
+		padding-right: 0px;
+		max-width: none;
 	}
 
 	.image {
@@ -1196,6 +1220,7 @@ a.active{
     height: 100%;
     object-fit: cover;
 		padding-top: 20px;
+		padding-left: 0px;
 	}
 
 
